@@ -3,6 +3,7 @@
 def display_board(board)
   split= " | "
   lines= "-----------"
+  board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
 
   puts "#{board[0]} #{split} #{board[1]} #{split} #{board[2]}"
   puts "#{lines}"
